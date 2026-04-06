@@ -2,8 +2,6 @@
   <img src="SentinelX-AI.png" alt="SentinelX AI Banner" width="100%">
 </p>
 ---
-# 🛡️ SentinelX-AI
-### AI-Powered Security Analysis Platform
 <p align="center">
 
 ```
@@ -14,101 +12,75 @@
 ███████║███████╗██║ ╚████║   ██║   ██║██║ ╚████║███████╗███████╗
 ╚══════╝╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚═╝╚═╝  ╚═══╝╚══════╝╚══════╝
 
-                        X - A I
+                 SentinelX-AI
 ```
+
 </p>
+
 <p align="center">
-AI-powered reconnaissance • Automated analysis • Professional security reports
+  
+Hybrid Security Tool → Works as CLI Tool & Web Application
 </p>
 
 ---
 
-## 🚀 Overview
+# 🚀 Overview
 
-**SentinelX-AI** is an advanced AI-assisted cybersecurity analysis tool built for:
+**SentinelX-AI** is an AI-assisted cybersecurity tool designed for:
 
 * 🕵️ Bug bounty hunters
 * 🛡️ Security researchers
-* 🎓 Cybersecurity students
+* 🎓 Students learning ethical hacking
 * 🏢 Security teams
 * 🤖 AI automation developers
 
-The platform helps perform **authorized security testing** and generates **clear, structured vulnerability insights**.
+It helps automate **basic reconnaissance**, analyze potential **security weaknesses**, and generate **human-readable findings**.
 
-> Designed for learning, research, and authorized penetration testing only.
-
----
-
-## ✨ Key Features
-
-### 🔍 Intelligent Recon Engine
-
-* Subdomain discovery
-* Endpoint mapping
-* Technology detection
-* Security header analysis
-* Basic misconfiguration detection
-
-### 🤖 AI Security Analysis
-
-* AI-generated vulnerability explanation
-* Beginner-friendly breakdown
-* Risk understanding assistance
-* Security awareness support
-
-### 📊 Professional Report System
-
-* Structured findings format
-* Risk classification
-* Clear recommendations
-* Export-ready report structure
-
-### 🔐 Ethical Usage Focus
-
-* Built for authorized testing environments
-* Educational explanation support
-* Responsible disclosure friendly
+> ⚠️ Use only on systems you own or have permission to test.
 
 ---
 
-## 🧠 Workflow
+# ✨ Core Features
 
-```mermaid
-flowchart LR
-A[Target Domain] --> B[Recon Engine]
-B --> C[AI Analysis]
-C --> D[Risk Evaluation]
-D --> E[Report Generation]
-E --> F[Security Insights]
-```
+## 🔍 Recon & Detection Capabilities
 
----
+SentinelX-AI can help identify:
 
-## 📂 Project Structure
+### 🌐 Domain Information
 
-```
-SentinelX-AI/
-│
-├── core/
-│   ├── scanner/
-│   ├── analyzer/
-│   └── report_engine/
-│
-├── ai/
-│   └── intelligence_module/
-│
-├── ui/
-│   └── dashboard/
-│
-├── docs/
-│   └── documentation.md
-│
-└── README.md
-```
+* Basic target scanning
+* technology detection
+* exposed endpoints
+* misconfiguration indicators
+
+### 🔐 Security Weakness Indicators
+
+* Missing security headers
+* exposed technologies
+* possible open endpoints
+* basic misconfiguration patterns
+
+### 🤖 AI-assisted Analysis
+
+* simplified explanation of findings
+* beginner friendly output
+* structured results
+* risk level estimation
 
 ---
 
-## ⚙️ Installation
+# 🧠 Hybrid Mode
+
+SentinelX-AI works in **2 ways**:
+
+| Mode     | Description                |
+| -------- | -------------------------- |
+| CLI mode | run using terminal command |
+| Web mode | run as browser dashboard   |
+
+---
+
+# ⚙️ Installation
 
 ```bash
 git clone https://github.com/yourusername/SentinelX-AI.git
@@ -120,96 +92,142 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Basic Usage
+# 🖥️ CLI Usage
+
+Run directly from terminal:
 
 ```bash
 python sentinelx.py --target example.com
 ```
 
----
+### Example
 
-## 📊 Example Result
+```bash
+python sentinelx.py --target testphp.vulnweb.com
+```
+
+### CLI Output Example
 
 ```
-Target: example.com
+[SentinelX-AI] scanning example.com
 
 Findings:
-• Missing security headers
-• Exposed technology stack
-• Possible misconfiguration
+
+- Missing security headers
+- Technology exposure detected
 
 Risk Level: Medium
-
-Recommendation:
-Review server configuration and apply security best practices.
 ```
 
 ---
 
-## 🛣️ Roadmap
+# 🌐 Web App Usage
 
-* AI vulnerability reasoning upgrade
-* CVSS auto scoring
-* PDF report export
-* Web dashboard UI
-* API integration
-* Multi-user collaboration
-* Subscription system
-* Donation integration
+Start web interface:
 
----
+```bash
+python web/webapp.py
+```
 
-## 🤝 Contribution
+Open browser:
 
-Contributions are welcome from the security community.
+```
+http://127.0.0.1:5000
+```
 
-Steps:
-
-1. Fork repository
-2. Create feature branch
-3. Commit changes
-4. Submit pull request
+Enter target domain → click scan → see result in dashboard.
 
 ---
 
-## ⚠️ Legal Disclaimer
+# 📊 Example Findings
 
-SentinelX-AI must only be used on systems you own or have explicit permission to test.
+SentinelX-AI may detect patterns such as:
 
-Unauthorized security testing may violate laws and regulations.
+* missing security headers
+* exposed framework information
+* possible API endpoints
+* basic configuration weaknesses
+* technology stack exposure
+
+---
+
+# 📂 Project Structure
+
+```
+SentinelX-AI/
+
+core/
+scanner logic
+
+ai/
+AI explanation engine
+
+web/
+web dashboard interface
+
+cli/
+command line interface
+
+sentinelx.py
+main runner
+```
+
+---
+
+# 🔮 Future Roadmap
+
+planned improvements:
+
+* AI vulnerability explanation upgrade
+* CVSS score estimation
+* PDF report download
+* login system
+* subscription system
+* team collaboration
+* API version
+* docker version
+* automated recon integration
+* bug bounty workflow optimization
+
+---
+
+# 🛡️ Legal Disclaimer
+
+This tool is created for:
+
+* educational purposes
+* authorized security testing
+* cybersecurity research
+
+Do NOT scan systems without permission.
+
+Unauthorized testing may violate laws.
 
 The developer is not responsible for misuse.
 
 ---
 
-## ⭐ Support Project
+# 🤝 Contribution
 
-If this project helps you:
+Want to improve SentinelX-AI?
 
-Give it a ⭐ on GitHub
-Share with security researchers
-Support ethical cybersecurity learning
-
----
-
-## 🔥 Vision
-
-Making cybersecurity research faster, smarter, and more accessible using AI.
+1. fork repository
+2. create feature branch
+3. commit changes
+4. submit pull request
 
 ---
 
-চাও হলে আমি এগুলাও তৈরি করে দিতে পারি:
+# ⭐ Support
 
-* GitHub badge section
-* Logo prompt (AI generate)
-* Landing page design text
-* Full documentation.md
-* Contribution guideline
-* License file
-* Project tagline options
+If this project helps your learning or research:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+give a star ⭐ on GitHub
+
+---
+
+# 🔥 Vision
+
+Make cybersecurity learning easier using AI.
+
+---
