@@ -1,15 +1,9 @@
 <p align="center">
   <img src="SentinelX-AI.png" alt="SentinelX AI Banner" width="100%">
 </p>
-নিচে **SentinelX-AI** এর জন্য একটি **modern, clean, professional design করা README.md** দিলাম — GitHub এ দিলে premium project এর মত দেখাবে 🔥
-Copy → paste → README.md
-
 ---
-
 # 🛡️ SentinelX-AI
-
 ### AI-Powered Security Analysis Platform
-
 <p align="center">
 
 ```
@@ -22,9 +16,7 @@ Copy → paste → README.md
 
                         X - A I
 ```
-
 </p>
-
 <p align="center">
 AI-powered reconnaissance • Automated analysis • Professional security reports
 </p>
